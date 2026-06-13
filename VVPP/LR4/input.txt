@@ -1,0 +1,7 @@
+This is a test file with some error messages.
+Warning: low disk space.
+Success: backup completed.
+Another line with failed attempt.
+Timeout occurred here.
+This line has warning and error both.
+Exception thrown during execution.

@@ -1,0 +1,4 @@
+Запуск VVPP LR1/ 
+cd "/home/mir/Рабочий стол/VVPP/LR1/"
+g++ -fopenmp -std=c++11 1_thread.cpp -o 1_thread
+./1_thread
