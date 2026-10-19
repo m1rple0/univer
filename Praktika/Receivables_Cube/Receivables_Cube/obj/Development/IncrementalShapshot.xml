@@ -1,0 +1,103 @@
+﻿<DeploymentSnapshot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0">
+  <Target>
+    <Database>Receivables_Cube</Database>
+    <Server>localhost</Server>
+    <ConnectionString>Data Source=localhost;Timeout=0</ConnectionString>
+  </Target>
+  <Options>
+    <TransactionalDeployment>false</TransactionalDeployment>
+    <PartitionDeployment>DeployPartitions</PartitionDeployment>
+    <RoleDeployment>DeployRolesRetainMembers</RoleDeployment>
+    <ProcessingOption>DoNotProcess</ProcessingOption>
+    <OutputScript></OutputScript>
+    <ImpactAnalysisFile></ImpactAnalysisFile>
+    <ConfigurationSettingsDeployment>Deploy</ConfigurationSettingsDeployment>
+    <OptimizationSettingsDeployment>Deploy</OptimizationSettingsDeployment>
+    <WriteBackTableCreation>UseExisting</WriteBackTableCreation>
+  </Options>
+  <Snapshot>
+    <ObjectSnapshots>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.RelationalDataSource</Type>
+        <TimeStamp>dNPMjuAK7JuEtaAhfHKaSCizFNo=10.07.2026 13:55:3810.07.2026 13:55:38</TimeStamp>
+        <ID>
+          <String>DebitCube_Source</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.DataSourceView</Type>
+        <TimeStamp>a/QKktsSuCjSsfK6CzFu4FpIexs=11.07.2026 17:30:5110.07.2026 13:58:42</TimeStamp>
+        <ID>
+          <String>DebitCube_DSV</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>BA/yYYySn/FUC+XlgEeNIRvqyjM=10.07.2026 16:10:3110.07.2026 14:06:55</TimeStamp>
+        <ID>
+          <String>Клиенты</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>Zom+mnrcWIKWbxzEqGKHedsK62g=11.07.2026 18:06:0910.07.2026 14:10:33</TimeStamp>
+        <ID>
+          <String>Дата</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>3SazVLIqcSvYk5XJyL5LfGPzdVc=10.07.2026 16:11:3610.07.2026 14:12:38</TimeStamp>
+        <ID>
+          <String>Документы</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>uNr9PLKwa6VjmQaEX/f3jUDHY3o=10.07.2026 16:12:2610.07.2026 14:14:15</TimeStamp>
+        <ID>
+          <String>Оплаты</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>x6WSUwzeX6OfKiVtjRh3kOl0OR4=11.07.2026 18:30:5711.07.2026 17:14:26</TimeStamp>
+        <ID>
+          <String>Менеджеры</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>aX9psAZAuTseanJjcenuBSVg77I=11.07.2026 18:39:3510.07.2026 14:20:11oDL0uQ3o9lfBW8KRr7RBfXbYTQA=10.07.2026 14:20:1110.07.2026 14:20:11</TimeStamp>
+        <ID>
+          <String>Receivables_Cube</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Role</Type>
+        <TimeStamp>sX5//z7ThxRbG0ea3dz+3ZPi8XY=11.07.2026 18:30:5711.07.2026 18:20:56</TimeStamp>
+        <ID>
+          <String>Role</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Role</Type>
+        <TimeStamp>U7o9oAFKQonDcLeL6h7KQ3bOE7c=11.07.2026 18:39:3511.07.2026 18:32:41</TimeStamp>
+        <ID>
+          <String>Role 1</String>
+        </ID>
+      </ObjectSnapshot>
+    </ObjectSnapshots>
+    <DatabaseSnapshot>
+      <Type>Microsoft.AnalysisServices.Database</Type>
+      <TimeStamp>svXo5hlEZpNURC9Fda7QXJgkOUs=11.07.2026 18:39:3510.07.2026 13:31:54</TimeStamp>
+      <ID>
+        <String>Receivables_Cube</String>
+      </ID>
+    </DatabaseSnapshot>
+    <Granularity>Coarse</Granularity>
+  </Snapshot>
+  <AssemblyLocations />
+  <ProcessingComplete>true</ProcessingComplete>
+  <LastDeployed>2026-07-11T15:40:08.626667Z</LastDeployed>
+</DeploymentSnapshot>
